@@ -18,3 +18,22 @@ html
     border-radius: 20px;
 }
 
+@media(max-width: 576px)
+{
+    html
+    {
+        font-size: 0.7rem;
+    }
+    .a img
+    {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media(min-width: 992px)
+{
+    .a
+    {
+        margin-left: 20%;
+    }
+}
