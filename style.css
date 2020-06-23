@@ -91,6 +91,8 @@ li{
     text-decoration: none;
     transition: .25s ease-out;
 }
+
+
 @media(max-width: 576px)
 {
     html
@@ -114,6 +116,23 @@ li{
 {
     .art
     {
-        margin-left: 20%;
+        margin-left: 5%;
+        float: none !important;
+        clear:both;
+        line-height: 1.5;
     }
+    .art p
+    {
+        font-size: 2rem;
+    }
+    .art h5
+    {
+        font-size: 2rem;
+        line-height: 2;
+    }
+    .art img 
+    {
+        width: 350px;
+        height: 300px;
+    };
 }
