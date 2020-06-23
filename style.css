@@ -24,15 +24,22 @@ html
     {
         font-size: 0.7rem;
     }
-    .a img
+    .art img
     {
         width: 100px;
         height: 100px;
     }
 }
+@media(min-width:768px)
+{
+    .pagination
+    {
+        margin-top: 15%;
+    }
+}
 @media(min-width: 992px)
 {
-    .a
+    .art
     {
         margin-left: 20%;
     }
