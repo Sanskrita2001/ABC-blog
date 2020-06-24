@@ -3,9 +3,10 @@ html
     overflow-x: hidden;
     font-size: 1rem;
 }
-.container
+.container-fluid
 {
     margin: 0 auto;
+    background: 100%;
 }
 #tt p
 {
@@ -20,6 +21,10 @@ html
 @import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap);
 html,body{
     font-family: 'Josefin Sans', sans-serif;
+}
+body
+{
+    background: 100%;
 }
 .navbar-dark{
     background-color: #512DA8;
@@ -98,7 +103,9 @@ li{
     html
     {
         font-size: 0.7rem;
+        overflow-x: hidden !important;
     }
+    
     .art img
     {
         width: 120px;
@@ -107,6 +114,14 @@ li{
 }
 @media(max-width:768px)
 {
+    html
+    {
+        overflow-x: hidden;
+    }
+    body
+    {
+        background: 100%;
+    }
     .extra
     {
         visibility: hidden;
@@ -114,13 +129,34 @@ li{
 }
 @media(min-width:768px)
 {
+    html
+    {
+        overflow-x: hidden;
+    }
+    body
+    {
+        background: 100%;
+    }
     .pagination
     {
         margin-top: 15%;
     }
+    .art img
+    {
+        width: 250px;
+        height: 200px;
+    }
 }
 @media(min-width: 992px)
 {
+    html
+    {
+        overflow-x: hidden;
+    }
+    body
+    {
+        background: 100%;
+    }
     .art
     {
         float: none !important;
@@ -138,7 +174,7 @@ li{
     {
         width: 250px;
         height: 200px;
-    };
+    }
     .extra height
     {
         font-family: Roboto;
