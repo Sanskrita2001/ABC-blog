@@ -186,12 +186,18 @@ li{
     {
         width: 150px;
         height: 120px;
+        margin-top: 30%;
     }
     .first
     {
         border: 1px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px ;
+    }
+    .first img
+    {
+        margin-top: 0;
+        margin-bottom: 35%;
     }
     .last
     {
