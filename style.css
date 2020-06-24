@@ -24,7 +24,8 @@ html,body{
 }
 body
 {
-    background: 100%;
+    background: 100% 100%;
+    overflow:hidden;
 }
 .navbar-dark{
     background-color: #512DA8;
@@ -175,11 +176,16 @@ li{
         width: 250px;
         height: 200px;
     }
-    .extra height
+    .extra h5
     {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
+    }
+    .extra img
+    {
+        width: 150px;
+        height: 120px;
     }
     .first
     {
