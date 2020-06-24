@@ -105,6 +105,13 @@ li{
         height: 100px;
     }
 }
+@media(max-width:768px)
+{
+    .extra
+    {
+        visibility: hidden;
+    }
+}
 @media(min-width:768px)
 {
     .pagination
@@ -119,20 +126,18 @@ li{
         margin-left: 5%;
         float: none !important;
         clear:both;
-        line-height: 1.5;
-    }
-    .art p
-    {
-        font-size: 2rem;
     }
     .art h5
     {
-        font-size: 2rem;
-        line-height: 2;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+
     }
     .art img 
     {
-        width: 350px;
-        height: 300px;
+        width: 250px;
+        height: 200px;
     };
 }
