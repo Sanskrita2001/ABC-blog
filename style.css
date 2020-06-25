@@ -147,6 +147,11 @@ li{
         width: 250px;
         height: 200px;
     }
+    .art h5
+    {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
 }
 @media(min-width: 992px)
 {
@@ -169,6 +174,8 @@ li{
         font-style: normal;
         font-weight: bold;
         font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
 
     }
     .art img 
@@ -186,7 +193,7 @@ li{
     {
         width: 150px;
         height: 120px;
-        margin-top: 30%;
+        margin-top: 20%;
         border-radius: 20px;
     }
     .first
@@ -200,10 +207,18 @@ li{
         margin-top: 0;
         margin-bottom: 35%;
     }
+    .fourth img
+    {
+        margin-top: 0;
+    }
     .last
     {
         border: 1px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px ;
+    }
+    .last img
+    {
+        margin-top: -20%;
     }
 }
