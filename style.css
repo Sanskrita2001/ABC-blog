@@ -205,11 +205,11 @@ li{
     .first img
     {
         margin-top: 0;
-        margin-bottom: 35%;
+        margin-bottom: 20%;
     }
-    .fourth img
+    .second img
     {
-        margin-top: 0;
+        margin-bottom: 20%;
     }
     .last
     {
@@ -217,8 +217,12 @@ li{
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px ;
     }
-    .last img
+    .title
     {
-        margin-top: -20%;
+        padding-top: 20%;
+    }
+    .first .title
+    {
+        padding-top: 0;
     }
 }
