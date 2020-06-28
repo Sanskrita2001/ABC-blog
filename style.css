@@ -112,6 +112,22 @@ li{
         width: 120px;
         height: 100px;
     }
+    .overlay-content
+    {
+        text-align:left !important;
+        top:0 !important;
+    }
+    .overlay a
+    {
+        font-size:15px !important;
+        padding-left:8px !important;
+        padding:3px !important;
+    }
+    .overlay .closebtn
+    {
+        top:-10px !important;
+        right:15px !important;
+    }
 }
 @media(max-width:768px)
 {
@@ -126,6 +142,21 @@ li{
     .extra
     {
         visibility: hidden;
+    }
+    .heading
+    {
+        font-size:21px;
+    }
+    .overlay .closebtn
+    {
+        font-size:40px !important;
+    }
+}
+@media(width:768px)
+{
+    .overlay a
+    {
+        font-size:18px !important;
     }
 }
 @media(min-width:768px)
@@ -225,6 +256,10 @@ li{
     {
         padding-top: 0;
     }
+    .heading
+    {
+        font-size:30px;
+    }
 }
 .overlay {
   height: 100%;
@@ -267,9 +302,7 @@ li{
   font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
-    .overlay-content
-    {}
+/*@media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
   font-size: 40px;
