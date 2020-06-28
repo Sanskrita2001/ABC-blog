@@ -241,7 +241,7 @@ li{
 
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 15%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -250,7 +250,7 @@ li{
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 28px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -268,6 +268,8 @@ li{
 }
 
 @media screen and (max-height: 450px) {
+    .overlay-content
+    {}
   .overlay a {font-size: 20px}
   .overlay .closebtn {
   font-size: 40px;
