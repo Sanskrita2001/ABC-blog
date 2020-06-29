@@ -126,6 +126,13 @@ line-height: 50px;
         font-size: 10px;
     }
 }
+@media(min-width:768px)
+{
+    .Heading
+    {
+        padding-top:10%;
+    }
+}
 .footer{
     background-color:#292b2c ;
     margin:0px auto;
