@@ -3,10 +3,14 @@ html,body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
 }
+html
+{
+    overflow-x:hidden;
+}
 body
 {
     background: 100% 100%;
-    overflow-x:hidden;
+    overflow:hidden;
 }
 .navbar-dark{
     background-color: #512DA8;
@@ -27,9 +31,9 @@ li{
 }
 .Heading
 {
-    border-radius:10px;
+    border-radius:15px;
 }
-.pic
+.pic-one
 {
     background-image: url(Assets/1.jpg);
     background-repeat: no-repeat;
@@ -37,7 +41,25 @@ li{
     border-radius: 48px;
     width: 250px;
     height: 200px;
-}   
+}
+.pic-two
+{
+    background-image: url(Assets/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 48px;
+    width: 250px;
+    height: 200px;
+} 
+.pic-three
+{
+    background-image: url(Assets/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 48px;
+    width: 250px;
+    height: 200px;
+}  
 .a
 {
     color:inherit;
@@ -70,7 +92,21 @@ line-height: 50px;
     {
         font-size: 0.7rem;
     }
-    .pic
+    .Heading
+    {
+        padding-top:2%;
+    }
+    .pic-one
+    {
+        border-radius: 20px;
+        height:100px;
+    }
+    .pic-two
+    {
+        border-radius: 20px;
+        height:100px;
+    }
+    .pic-three
     {
         border-radius: 20px;
         height:100px;
