@@ -39,7 +39,7 @@ li{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 48px;
-    width: 250px;
+    max-width: 350px;
     height: 200px;
 }
 .pic-two
@@ -48,7 +48,7 @@ li{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 48px;
-    width: 250px;
+    max-width: 350px;
     height: 200px;
 } 
 .pic-three
@@ -57,7 +57,7 @@ li{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 48px;
-    width: 250px;
+    max-width: 350px;
     height: 200px;
 }  
 .a
@@ -132,6 +132,14 @@ line-height: 50px;
     {
         padding-top:10%;
     }
+}
+@media(min-width:992px)
+{
+    .content
+    {
+        margin:0 10% ;
+    }
+
 }
 .footer{
     background-color:#292b2c ;
