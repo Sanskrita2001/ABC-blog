@@ -11,48 +11,61 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>ABC Blog</title>
   </head>
-
+<style type="text/css">
+  a{
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+</style>
   <body>
     <!-- Navbar-->
     <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="p-4" style=" background-color: rgb(29, 29, 29);">
-          <div class="row">
-              <ul class="col-md-3">
-              What's Popular?
-              <li>item1</li>
-              <li>item2</li>
-              <li>item3</li>
-              <li>item4</li>
-          </ul>
-              <ul class="col-md-3" >
-              Blog Specials
-              <li>Basics 101</li>
-              <li>Tech Tuedays</li>
-              <li>Opening the Kimono</li>
-              <li>Ones to Watch</li>
-           </ul>
-           <ul class="col-md-3" >
-              Latest Updates
-              <li>Basics 101</li>
-              <li>Tech Tuedays</li>
-              <li>Opening the Kimono</li>
-              <li>Ones to Watch</li>
-           </ul>
-           <ul class="col-md-3" >
-             Latest Videos
-              <li>Basics 101</li>
-              <li>Tech Tuedays</li>
-              <li>Opening the Kimono</li>
-              <li>Ones to Watch</li>
-           </ul>
-          </div>
-        </div>
-      </div>
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="p-4" style=" background-color: rgb(29, 29, 29);">
+                <div class="row">
+                    <ul class="col-md-3">
+                    What's Popular?
+                    <li><a href="../articles/article1.html" style="color: inherit;">item1</a></li>
+                    <li><a href="../articles/article1.html" style="color: inherit;">item2</a></li>
+                    <li><a href="../articles/article1.html"style="color: inherit;">item3</a></li>
+                    <li><a href="../articles/article1.html"style="color: inherit;">item4</a></li>
+                </ul>
+                    <ul class="col-md-3" >
+                    Blog Specials
+                    <li><a href="basics101.html"style="color: inherit;">Basics 101</a></li>
+                   <li><a href="techtuesday.html"style="color: inherit;">Tech Tuedays</a></li>
+                    <li><a href="openingthekimono.html"style="color: inherit;">Opening the Kimono</a></li>
+                    <li><a href="onestowatch.html"style="color: inherit;">Ones to Watch</a></li>
+                 </ul>
+                 <ul class="col-md-3" >
+                    Latest Updates
+                    <li><a href="basics101.html"style="color: inherit;">Basics 101</a></li>
+                    <li><a href="techtuesday.html"style="color: inherit;">Tech Tuedays</a></li>
+                    <li><a href="openingthekimono.html"style="color: inherit;">Opening the Kimono</a></li>
+                    <li><a href="onestowatch.html"style="color: inherit;">Ones to Watch</a></li>
+                 </ul>
+                 <ul class="col-md-3" >
+                   Latest Videos
+                    <li><a href="basics101.html"style="color: inherit;">Basics 101</a></li>
+                    <li><a href="techtuesday.html"style="color: inherit;">Tech Tuedays</a></li>
+                    <li><a href="openingthekimono.html"style="color: inherit;">Opening the Kimono</a></li>
+                    <li><a href="onestowatch.html"style="color: inherit;">Ones to Watch</a></li>
+                 </ul>
+                </div>
+              </div>
+            </div>
       <nav class="navbar navbar-dark"style=" background-color: rgb(29, 29, 29);">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <span class="buzz">
+                <div >
+                  <img src="Assets/Abuzz.png" class="Abuz" >
+                </div>
+              </span>
         <span class="navbar-text">
             <button class="btn btn-group btn-warning">
               <a data-toggle="modal" data-target="#joinmodal" style="color: black;">
@@ -64,7 +77,7 @@
     </div>
     <!-- Breadcrumb-->
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="#"><span class="text-dark">Home</span></a></li>
+      <li class="breadcrumb-item"><a href="../../index.html"><span class="text-dark">Home</span></a></li>
       <li class="breadcrumb-item"><a href="#"><span class="text-dark">Opening the Kimono</span></a></li>
     </ol>
     <div id="joinmodal" class="modal fade" role="dialog">
@@ -80,7 +93,7 @@
               <div class="modal-body">
                  
                   <div class="btn-group col-md-12" role="group">
-                  <a role="button" class="btn btn-warning col-md-4 mr-1" href="mailto:alphabiocell@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+                  <a role="button" class="btn btn-warning col-md-4 mr-1" href="mailto:abc@vit.ac.in"><i class="fa fa-envelope"></i> Email</a>
                   <br>
                   <a role="button" class="btn btn-warning col-md-4 mr-1" href="https://www.instagram.com/alphabiocell/?hl=en"><i class="fa fa-instagram"></i> Instagram</a>
                   <br>
@@ -93,6 +106,7 @@
     </div>
   </div>
 
+
     <!-- Heading and Description -->
     <div class="container-fluid" id="tt">
         <h1 class="text-center mt-5 mb-3"><strong>Opening the Kimono</strong></h1>
@@ -104,109 +118,108 @@
       <div class="art container col-lg-8" id=articles>
         <img src="Assets/9.jpg" class="img-thumbnail float-left  mr-2 ml-md-5 ml-3" width="250px" height="200px">
         <p><small>20 June 2020</small>
-        <br><h5>Road map towards learning Web Dev</h5>
-        <br><small><strong>by Jack &nbsp; &nbsp; &nbsp; &nbsp; 3 minutes</strong></small></p>
+        <br><h5><a href="../articles/article1.html" style="color: inherit;">Road map for learning Web development.</a></h5>
+        <br><small><strong>by <a href="../authors.html" style="color: inherit;">Anwesha</a> &nbsp; &nbsp; &nbsp; &nbsp; 3 minutes</strong></small></p>
       </div>
       <div class="container extra first d-none d-lg-inline col-lg-3 bg-warning">
         <h4 class="text-center pt-lg-4 pb-lg-3">What's Popular?</h4>
-        <div class="row">
+        <div class="row" >
           <div class="col pic-one ">
+            <img src="Assets/1.jpg" class="img-thumbnail">
           </div>
         </div>
-        <div class="row">
-          <div class="col title text-center mb-1">
-            Loren ipsum doler sit amet
+        <div class="row" >
+          <div class="col title text-center mb-1" style="font-weight: bold; font-size: 20px;">
+            <a href="../articles/article1.html">Loren ipsum doler sit amet</a>
+            <br> <span style="font-weight: normal; font-size: 16px">by</span> <a href="../authors.html"><span style=" font-size: 16px">Manan</span></a>
           </div>
-        </div>
-        <!--<img src="Assets/1.jpg" class="img-thumbnail ml-lg-5" width="150px" height="120px">
-        <div class="title m-lg-2">Loren ipsum doler sit amet</div><-->
       </div>
     </div>
+  </div>
     <div class="row">
-      <div class="art container col-lg-8 mt-5 mt-lg-3" id=articles>
+      <div class="art container col-lg-8 mt-5 mt-lg-0" id=articles>
         <img src="Assets/3.jpg" class="img-thumbnail float-left mr-2 mb-3 ml-md-5 ml-3" width="250px" height="200px">
         <p><small>20 June 2020</small>
-        <br><h5>Top UI/UX trends of 2020</h5>
-        <br><small><strong>by Shreyan &nbsp; &nbsp; &nbsp; &nbsp; 4 minutes</strong></small></p>
+        <br><h5><a href="../articles/article1.html" style="color: inherit;">Road map for learning Web development.</a></h5>
+        <br><small><strong>by <a href="../authors.html" style="color: inherit;">Anwesha</a> &nbsp; &nbsp; &nbsp; &nbsp; 4 minutes</strong></small></p>
       </div>
       <div class="container extra second d-none d-lg-inline col-lg-3 bg-warning">
-        <div class="row">
-          <div class="col pic-two mt-5">
+       <div class="row" style="margin-top: 30px;">
+          <div class="col pic-one">
+            <img src="Assets/4.jpg" class="img-thumbnail">
           </div>
         </div>
-        <div class="row">
-          <div class="col title text-center">
-            Loren ipsum doler sit amet
+        <div class="row" style="margin-bottom: 30px;">
+          <div class="col title text-center mb-1" style="font-weight: bold; font-size: 20px;">
+            <a href="../articles/article1.html">Loren ipsum doler sit amet</a>
+            <br> <span style="font-weight: normal; font-size: 16px">by</span> <a href="../authors.html"><span style=" font-size: 16px">Manan</span></a>
           </div>
-        </div>
-        <!--<img src="Assets/3.jpg" class="img-thumbnail ml-lg-2 mr-lg-2" width="150px" height="120px">
-        <div class="title m-lg-2">Loren ipsum doler sit amet</div><-->
       </div>
     </div>
+  </div>
     <div class="row">
-      <div class="art container col-lg-8 mt-5" id=articles>
+      <div class="art container col-lg-8 mt-5 mt-lg-3" id=articles>
         <img src="Assets/4.jpg" class="img-thumbnail float-left mr-2 mb-3 ml-md-5 ml-3" width="250px" height="200px">
         <p><small>20 June 2020</small>
-        <br><h5>How to build a brand image</h5>
-        <br><small><strong>by Manan &nbsp; &nbsp; &nbsp; &nbsp; 2 minutes</strong></small></p>
+        <br><h5><a href="../articles/article1.html" style="color: inherit;">Road map for learning Web development.</a></h5>
+        <br><small><strong>by <a href="../authors.html" style="color: inherit;">Anwesha</a> &nbsp; &nbsp; &nbsp; &nbsp; 2 minutes</strong></small></p>
       </div>
       <div class="container extra third d-none d-lg-inline col-lg-3 bg-warning">
-        <div class="row">
-          <div class="col pic-three mt-5">
+        <div class="row" >
+          <div class="col pic-one ">
+            <img src="Assets/6.jpg" class="img-thumbnail">
           </div>
         </div>
-        <div class="row">
-          <div class="col title text-center">
-            Loren ipsum doler sit amet
+        <div class="row" style="margin-bottom: 30px;">
+          <div class="col title text-center mb-1" style="font-weight: bold; font-size: 20px;">
+            <a href="../articles/article1.html">Loren ipsum doler sit amet</a>
+            <br> <span style="font-weight: normal; font-size: 16px">by</span> <a href="../authors.html"><span style=" font-size: 16px">Manan</span></a>
           </div>
-        </div>
-        <!--<img src="Assets/5.jpg" class="img-thumbnail ml-lg-2 mr-lg-2" width="150px" height="120px">
-        <div class="title m-lg-2">Loren ipsum doler sit amet</div><-->
       </div>
     </div>
-    <div class="row">
-      <div class="art container col-lg-8 mt-5" id=articles>
-        <img src="Assets/6.jpg" class="img-thumbnail float-left mr-2 mb-3 ml-md-5 ml-3" width="250px" height="200px">
+  </div>
+    <div class="row" >
+      <div class="art container col-lg-8 mt-5" style="margin-top: 30px;" id=articles>
+        <img src="Assets/6.jpg" class="img-thumbnail float-left mr-2 mb-3 ml-md-5 ml-3" width="250px" height="200px" >
         <p><small>20 June 2020</small>
-        <br><h5>Analysis of economy after lockdown</h5>
-        <br><small><strong>by Aaryan &nbsp; &nbsp; &nbsp; &nbsp; 3 minutes</strong></small></p>
+        <br><h5><a href="../articles/article1.html" style="color: inherit;">Road map for learning Web development.</a></h5>
+        <br><small><strong>by <a href="../authors.html" style="color: inherit;">Anwesha</a> &nbsp; &nbsp; &nbsp; &nbsp; 3 minutes</strong></small></p>
       </div>
       <div class="container extra fourth d-none d-lg-inline col-lg-3 bg-warning">
-        <div class="row">
-          <div class="col pic-four mt-4">
+         <div class="row" >
+          <div class="col pic-one ">
+            <img src="Assets/7.jpg" class="img-thumbnail">
           </div>
         </div>
-        <div class="row">
-          <div class="col title text-center">
-            Loren ipsum doler sit amet
+        <div class="row" >
+          <div class="col title text-center mb-1" style="font-weight: bold; font-size: 20px;">
+            <a href="../articles/article1.html">Loren ipsum doler sit amet</a>
+            <br> <span style="font-weight: normal; font-size: 16px">by</span> <a href="../authors.html"><span style=" font-size: 16px">Manan</span></a>
           </div>
-        </div>
-        <!--<img src="Assets/6.jpg" class="img-thumbnail ml-lg-2 mr-lg-2 " width="150px" height="120px">
-        <div class="title m-lg-2">Loren ipsum doler sit amet</div><-->
       </div>
     </div>
-    <div class="row">
-      <div class="art container col-lg-8 mt-5" id=articles>
+  </div>
+    <div class="row" >
+      <div class="art container col-lg-8 mt-5" style="margin-top: 50px;" id=articles >
         <img src="Assets/5.jpg" class="img-thumbnail float-left mr-2 mb-3 ml-md-5 ml-3" width="250px" height="200px">
         <p><small>20 June 2020</small>
-        <br><h5>How important are illustrations for your start-up</h5>
-        <br><small><strong>by Anwesha &nbsp; &nbsp; &nbsp; &nbsp; 4 minutes</strong></small></p>
+        <br><h5><a href="../articles/article1.html" style="color: inherit;">Road map for learning Web development.</a></h5>
+        <br><small><strong>by <a href="../authors.html" style="color: inherit;">Anwesha</a> &nbsp; &nbsp; &nbsp; &nbsp; 4 minutes</strong></small></p>
       </div>
       <div class="container extra last d-none d-lg-inline col-lg-3 bg-warning">
-        <div class="row">
-          <div class="col pic-five">
+         <div class="row" >
+          <div class="col pic-one ">
+            <img src="Assets/9.jpg" class="img-thumbnail">
           </div>
         </div>
         <div class="row">
-          <div class="col title text-center">
-            Loren ipsum doler sit amet
+          <div class="col title text-center mb-1" style="font-weight: bold; font-size: 20px;">
+            <a href="../articles/article1.html">Loren ipsum doler sit amet</a>
+            <br> <span style="font-weight: normal; font-size: 16px">by</span> <a href="../authors.html"><span style=" font-size: 16px">Manan</span></a>
           </div>
-        </div>
-        <!--<img src="Assets/7.jpg" class="img-thumbnail ml-lg-2 mr-lg-2" width="150px" height="120px">
-        <div class="title m-lg-2">Loren ipsum doler sit amet</div><-->
       </div>
     </div>
-    </div>
+  </div>
     <!-- Pagination -->
     <div class="m-5">
       <nav aria-label="Page navigation example">
@@ -238,7 +251,7 @@
           
           <div class="col-12 col-sm-6 footer-joinus">
               <span class="footer-joinus-text">Have something to post or suggest?</span>
-              <a class="footer-joinus_button" href="mailto:alphabiocell@gmail.com">Join us</a>
+              <a class="footer-joinus_button" href="abc@vit.ac.in">Join us</a>
               
           </div>
          
