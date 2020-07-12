@@ -18,6 +18,24 @@ html
     border: 1px;
     border-radius: 20px;
 }
+.Abuz{
+height: 15%;
+width: 40%; 
+margin-left: 28%; 
+margin-top: -4%;
+}
+@media(min-width: 200px) and (max-width: 700px){
+
+ .Abuz{
+height: 15%;
+width: 60%; 
+margin-left: 16%; 
+margin-top: -4%;
+}
+.buzz {
+    width: 50%;
+} 
+}
 @import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap);
 html,body{
     font-family: 'Josefin Sans', sans-serif;
@@ -216,7 +234,7 @@ li{
     }
     .pic-one
 {
-    background-image: url(Assets/1.jpg);
+    //background-image: url(Assets/1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 20px;
@@ -224,6 +242,7 @@ li{
     height: 150px;
     margin:0 auto;
 }
+/*
 .pic-two
 {
     background-image: url(Assets/9.jpg);
@@ -264,6 +283,7 @@ li{
     height: 150px;
     margin:0 auto;
 }
+*/
     .extra h5
     {
         font-family: Roboto;
@@ -272,9 +292,9 @@ li{
     }
     .extra img
     {
-        width: 150px;
-        height: 120px;
-        margin-top: 20%;
+        max-width: 200px;
+        height: 150px;
+        margin-left: -10%;
         border-radius: 20px;
     }
     .first
