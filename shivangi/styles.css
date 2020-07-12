@@ -19,6 +19,12 @@ body
     background-color: rgb(29, 29, 29);
     color:floralwhite;
 }
+.Abuz{
+height: 15%;
+width: 40%; 
+margin-left: 28%; 
+margin-top: -4%;
+}
 .modal-header{
     border-bottom: 1px solid #292b2c;
 }
@@ -33,14 +39,26 @@ li{
 {
     border-radius:15px;
 }
-.pic-one
+@media(min-width: 200px) and (max-width: 700px){
+
+ .Abuz{
+height: 15%;
+width: 60%; 
+margin-left: 16%; 
+margin-top: -4%;
+}
+.buzz {
+    width: 50%;
+} 
+}
+.pic
 {
-    background-image: url(Assets/1.jpg);
+    //background-image: url(Assets/1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    border-radius: 48px;
+    border-radius: 40px;
     max-width: 350px;
-    height: 200px;
+    max-height: 200px;
 }
 .pic-two
 {
@@ -96,9 +114,10 @@ line-height: 50px;
     {
         padding-top:2%;
     }
-    .pic-one
+    .pic
     {
         border-radius: 20px;
+        width:120px;
         height:100px;
     }
     .pic-two
